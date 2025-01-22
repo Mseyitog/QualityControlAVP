@@ -1,0 +1,28 @@
+\begin{center}
+    \begin{tikzpicture}[node distance=3cm]
+
+        % Actor
+        \node (user) [actor] {User};
+
+        % Use cases
+        \node (start) [usecase, below of=user, xshift=-6cm] {Start ARKit Session};
+        \node (select) [usecase, below of=user, xshift=-2cm] {Select Object};
+        \node (place) [usecase, below of=user, xshift=2cm] {Place Object};
+        \node (reposition) [usecase, below of=user, xshift=6cm] {Reposition Object};
+        \node (inspect) [usecase, below of=user, yshift=-6cm] {Inspect Object};
+        \node (provide) [usecase, below of=inspect, xshift=-4cm] {Provide Inspection Input};
+        \node (report) [usecase, below of=inspect, xshift=4cm] {Generate Report};
+
+        % Connections between actor and use cases
+        \draw [->] (user) -- (start);
+        \draw [->] (user) -- (select);
+        \draw [->] (user) -- (place);
+        \draw [->] (user) -- (reposition);
+        \draw [->] (user) -- (inspect);
+
+        % Relationships between use cases
+        \draw [->] (inspect) -- node[midway, above] {includes} (provide);
+        \draw [->] (inspect) -- node[midway, above] {includes} (report);
+
+    \end{tikzpicture}
+\end{center}

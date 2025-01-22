@@ -1,0 +1,50 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{iv}{chapter*.1}%
+\contentsline {chapter}{Acknowledgement}{v}{chapter*.2}%
+\contentsline {chapter}{List of Symbols and Abbreviations}{vi}{chapter*.3}%
+\contentsline {chapter}{Contents}{viii}{chapter*.4}%
+\contentsline {chapter}{List of Figures}{ix}{chapter*.5}%
+\contentsline {chapter}{List of Tables}{x}{chapter*.6}%
+\vspace {18pt}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Project Definition}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Project Aims}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Project Details}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}UI/UX Design}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Initial Session Start}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Object Selection Menu}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Initial Object Placement}{4}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Object Interaction View}{5}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Inspection Detail View}{8}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Model Alignment and Placement}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Initial Placement}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Replacement}{9}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Inspection}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Inspection Points}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Inspection Detail View}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Exporting Reports}{10}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Report Generation}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Implementation Overview}{11}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Report Content}{11}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Integration with Apple Vision Pro}{11}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Use Case Diagram}{12}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Conclusion and Results}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Inspection Efficiency}{13}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Analysis of Results}{13}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Conclusion on Inspection Efficiency}{13}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Latency Results}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Latency in Update Placement}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Latency in Object Selection}{14}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Latency in Tap Gesture (Object Placement)}{15}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Latency in Drag Gesture (Position Adjustments)}{15}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Latency in Generating Inspection Points}{15}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Latency in Removing Placed Object}{16}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Overall Average Latency}{16}{subsection.3.2.7}%
+\contentsline {section}{\numberline {3.3}Conclusion}{17}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Summary of Achievements}{17}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Challenges and Limitations}{17}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Future Work}{18}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Final Remarks}{18}{subsection.3.3.4}%
+\vspace {18pt}
+\contentsline {chapter}{Contributions}{19}{chapter*.7}%
+\contentsline {chapter}{References}{20}{chapter*.8}%

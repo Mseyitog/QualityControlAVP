@@ -1,0 +1,245 @@
+\chapter{Conclusion and Results}
+
+This chapter presents the evaluation of the quality control system based on the predefined success criteria: \textbf{inspection efficiency} and \textbf{low latency}. The results demonstrate the performance of the system and its ability to meet the intended objectives.
+
+\section{Inspection Efficiency}
+
+The inspection efficiency of the system was evaluated by comparing the time required to perform specific tasks on a traditional tablet versus the Apple Vision Pro (AVP). The results are summarized in Table \ref{tab:inspection_efficiency}.
+
+\begin{table}[h!]
+    \centering
+    \caption{Inspection Efficiency Comparison}
+    \label{tab:inspection_efficiency}
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{Task} & \textbf{Tablet Time (s)} & \textbf{AVP Time (s)} & \textbf{Efficiency (\%)} \\
+        \hline
+        1 Description Inspection & 30 & 36 & 83.3 \\
+        1 Description + 2 Yes/No Inspections & 37 & 45 & 82.2 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Analysis of Results}
+The efficiency percentage was calculated using the following formula:
+\[
+\text{Efficiency (\%)} = \frac{\text{Tablet Time}}{\text{AVP Time}} \times 100
+\]
+
+From the table, we can observe:
+\begin{itemize}
+    \item For \textbf{Alignment + 1 Description Inspection}, the system achieved an efficiency of \textbf{83.3\%}.
+    \item For \textbf{Alignment + 1 Description + 2 Yes/No Inspections}, the system achieved an efficiency of \textbf{82.2\%}.
+\end{itemize}
+
+\subsection{Conclusion on Inspection Efficiency}
+While the system did not meet the target of achieving at least 95\% of the inspection speed compared to a tablet, the results indicate that the AVP-based system maintains a reasonable level of performance. Using the AVP for this application, particularly the chosen UI design, is slowing down the process. However, the system's efficiency is still acceptable for practical use.
+
+\section{Latency Results}
+
+The latency of various operations was measured to evaluate the system's performance. The results are presented below, categorized by operation type.
+
+\subsection{Latency in Update Placement}
+The latency values for updating placements are summarized in Table \ref{tab:update_placement_latency}. The average latency was calculated as the mean of all recorded values.
+
+\begin{table}[h!]
+    \centering
+    \caption{Latency Results for Update Placement}
+    \label{tab:update_placement_latency}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Test Number} & \textbf{Latency (seconds)} \\
+        \hline
+        1 & 0.0001039505 \\
+        2 & 0.0001161098 \\
+        3 & 0.0001189709 \\
+        4 & 0.0001029968 \\
+        5 & 0.0001029968 \\
+        6 & 0.0001230240 \\
+        7 & 0.0000960827 \\
+        8 & 0.0000970364 \\
+        9 & 0.0000998974 \\
+        10 & 0.0001351833 \\
+        11 & 0.0001239777 \\
+        12 & 0.0001008511 \\
+        13 & 0.0001068115 \\
+        14 & 0.0001409054 \\
+        15 & 0.0001020432 \\
+        16 & 0.0001068115 \\
+        17 & 0.0001428127 \\
+        18 & 0.0002100468 \\
+        19 & 0.0004167557 \\
+        20 & 0.0001139641 \\
+        \hline
+        \multicolumn{1}{|r|}{\textbf{Average Latency:}} & \textbf{0.0001325284} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Latency in Object Selection}
+The latency values for object selection are presented in Table \ref{tab:object_selection_latency}.
+
+\begin{table}[h!]
+    \centering
+    \caption{Latency Results for Object Selection}
+    \label{tab:object_selection_latency}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Test Number} & \textbf{Latency (seconds)} \\
+        \hline
+        1 & 0.0004739761 \\
+        2 & 0.0004129410 \\
+        3 & 0.0006000996 \\
+        4 & 0.0004827976 \\
+        5 & 0.0120141506 \\
+        6 & 0.0209228992 \\
+        7 & 0.0204608440 \\
+        8 & 0.0109148026 \\
+        9 & 0.0004229546 \\
+        10 & 0.0017952919 \\
+        \hline
+        \multicolumn{1}{|r|}{\textbf{Average Latency:}} & \textbf{0.0064594758} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Latency in Tap Gesture (Object Placement)}
+The latency values for tap gestures during object placement are presented in Table \ref{tab:tap_gesture_latency}.
+
+\begin{table}[h!]
+    \centering
+    \caption{Latency Results for Tap Gesture (Object Placement)}
+    \label{tab:tap_gesture_latency}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Test Number} & \textbf{Latency (seconds)} \\
+        \hline
+        1 & 0.0059909821 \\
+        2 & 0.0005011559 \\
+        3 & 0.0005528927 \\
+        4 & 0.0012950897 \\
+        5 & 0.0007171631 \\
+        \hline
+        \multicolumn{1}{|r|}{\textbf{Average Latency:}} & \textbf{0.0018110567} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Latency in Drag Gesture (Position Adjustments)}
+The latency values for drag gestures during position adjustments are summarized in Table \ref{tab:drag_gesture_latency}.
+
+\begin{table}[h!]
+    \centering
+    \caption{Latency Results for Drag Gesture (Position Adjustments)}
+    \label{tab:drag_gesture_latency}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Test Number} & \textbf{Latency (seconds)} \\
+        \hline
+        1 & 0.0001320839 \\
+        2 & 0.0000288486 \\
+        3 & 0.0000252724 \\
+        4 & 0.0000269413 \\
+        5 & 0.0000250340 \\
+        \hline
+        \multicolumn{1}{|r|}{\textbf{Average Latency:}} & \textbf{0.0000472364} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Latency in Generating Inspection Points}
+The latency values for generating inspection points are summarized in Table \ref{tab:inspection_points_latency}.
+
+\begin{table}[h!]
+    \centering
+    \caption{Latency Results for Generating Inspection Points}
+    \label{tab:inspection_points_latency}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Test Number} & \textbf{Latency (seconds)} \\
+        \hline
+        1 & 0.0044450760 \\
+        2 & 0.0035967827 \\
+        3 & 0.0019381046 \\
+        4 & 0.0018577576 \\
+        5 & 0.0019099712 \\
+        \hline
+        \multicolumn{1}{|r|}{\textbf{Average Latency:}} & \textbf{0.0027495384} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Latency in Removing Placed Object}
+The latency values for removing placed objects are summarized in Table \ref{tab:remove_object_latency}.
+
+\begin{table}[h!]
+    \centering
+    \caption{Latency Results for Removing Placed Object}
+    \label{tab:remove_object_latency}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Test Number} & \textbf{Latency (seconds)} \\
+        \hline
+        1 & 0.0525081158 \\
+        2 & 0.0002326965 \\
+        3 & 0.0004959106 \\
+        4 & 0.0514550209 \\
+        5 & 0.0531599522 \\
+        \hline
+        \multicolumn{1}{|r|}{\textbf{Average Latency:}} & \textbf{0.0315707392} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Overall Average Latency}
+The overall average latency was calculated as the mean of the average latencies for all measured operations. The results are summarized in Table \ref{tab:overall_average_latency}.
+
+\begin{table}[h!]
+    \centering
+    \caption{Overall Average Latency}
+    \label{tab:overall_average_latency}
+    \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Operation} & \textbf{Average Latency (seconds)} \\
+        \hline
+        Update Placement & 0.0001325284 \\
+        Object Selection & 0.0064594758 \\
+        Tap Gesture (Object Placement) & 0.0018110567 \\
+        Drag Gesture (Position Adjustments) & 0.0000472364 \\
+        Generating Inspection Points & 0.0027495384 \\
+        Removing Placed Object & 0.0315707392 \\
+        \hline
+        \multicolumn{1}{|r|}{\textbf{Overall Average Latency:}} & \textbf{0.0071284291} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\section{Conclusion}
+
+This thesis presented the development and evaluation of an augmented reality (AR)-based quality control system tailored for the Apple Vision Pro (AVP). The primary objectives of the system were to enhance inspection efficiency and maintain low interaction latency, leveraging the advanced capabilities of ARKit and RealityComposer Pro.
+
+\subsection{Summary of Achievements}
+The system successfully integrated core functionalities such as object alignment, placement, inspection, and report generation into a streamlined AR application. The following achievements were made:
+\begin{itemize}
+    \item \textbf{Inspection Efficiency:} The system achieved an average efficiency of over 83\% compared to tablet-based solutions for quality control tasks. While slightly below the target of 95\%, this performance validates the practicality of AVP for AR-enhanced inspections.
+    \item \textbf{Low Latency:} Interaction latency remained consistently below the 100-millisecond threshold for most operations, with an overall average latency of \textbf{0.0071 seconds}. This ensured real-time responsiveness and a smooth user experience.
+\end{itemize}
+
+\subsection{Challenges and Limitations}
+While the system demonstrated significant capabilities, certain challenges and limitations were encountered:
+\begin{itemize}
+    \item \textbf{Efficiency Trade-offs:} The reliance on advanced spatial processing and the chosen UI design led to slower inspection times compared to traditional tablet-based systems.
+\end{itemize}
+
+\subsection{Future Work}
+To further improve the system and expand its applicability, the following future directions are proposed:
+\begin{itemize}
+    \item \textbf{Machine Learning for Inspection Points:} Implementing a feature to use camera shots and machine learning techniques for automatically detecting and marking inspection points on objects.
+    \item \textbf{Object Tracking:} Adding object tracking capabilities to improve the precision and reliability of object placement and inspection workflows.
+    \item \textbf{Optimization of Efficiency:} Enhancing the user interface and spatial processing algorithms to improve inspection speed and efficiency.
+    \item \textbf{Expanded Functionality:} Introducing features such as voice commands or advanced gesture recognition to broaden the system’s interaction capabilities.
+\end{itemize}
+
+
+\subsection{Final Remarks}
+This work highlights the potential of augmented reality technologies to transform quality control processes. By leveraging the advanced features of the Apple Vision Pro, the developed system offers an immersive, intuitive, and functional platform for performing detailed inspections and generating comprehensive reports.
